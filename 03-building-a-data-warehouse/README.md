@@ -14,6 +14,7 @@ pip install -r requirements.txt
 ```
 
 # Run ETL Script
+## replace your credential name file on line 39 of etl_bigquery.py and replace project_id on line 45
 ``` bash
-
+python etl_bigquery.py
 ```
