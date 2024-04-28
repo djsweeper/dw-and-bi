@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "crucial-subset-351106",
+  "private_key_id": "6a8895885924cdc72c977ad2b4857b1c5adc51e9",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCSFh69UPd14jzZ\nW7bHP9p25R7Vs00kv9f/FE46h/DXNKsAlFyeYTe1rO67IPKBYO0NYrMvdObB7jIR\n290UFFGXZNC7yLfW3LopJnfAHDMF71tWNFyAj4u2Hne3/j8AUGQfC/ZVlnwH6U65\n5IY2g2Fiy1EEJgoDFiFlt98kt/cZRi1h8YWWNNGZ047L+YVbHoq0QOitUyg9/gdm\nyV06qTYngRsMF0MPZlPoOziT/TDQEBeXaF1EM7NPM4FGq40Sy7F5atkLoNjA+EqB\nVWfPT91xdD3gcsIL+MxLxVx5Pnl8d4kwLbLiwtititq/jLG1JOdazqYHwRLvh4SX\niy/fHU2dAgMBAAECggEAFO3xCX6IIEOBeZfs39muGvVIgvq6mqvsQ4dNOJAxWSPF\nPBgFYkuGB76hlVMVwKN6Uuiec2DJjrnpl9VqycL/eDPhaTCgkLqe5ou0Vw8IiwPN\nOinWTDTvTJr2MU4jszp78wFrvBILQww8qIqtD9z9dCyyNr3xwUTHvs2mZ+7+Coi5\nQC977qLFIjIRW6vh1nOWWW9Vy/bmPaZ6LW4qmO/lb8za2FLTWErBal7xPUiXqz+t\nfUxZxY0K+/ORkQVZBLgCoDX4vwbpGXyanwAHkRiTy2BPxuByDHz4K0SyMMeRQOe8\nFpHpgPp/cl6qOjtN9n7VoUUu7sasUbnL2Lm6W+uOoQKBgQDIPF8I1vzIChMqvOyI\nQcSK+tm+ujs1jZIqNfqaElKnIiIGnEv8fNfFmVbUenrNKomhOX2AkgppxjtG3QsA\nzEhSJpBZveeU4/fqAzxT36GH4Fo7Pd/G9Yux7Qxf2uunKBoDyE4zb3nycfsOJQ7l\nBlislylyfBStsCmS2HQJ6rBQbwKBgQC6xTdGDNUNt0DEPROZpTyRN/nC6DR2KgDq\n017LG2ar0jI4bkINDJxAOhabBflY/9g8uGMSTTRAWM37CGATBGUSUkFse1HyDrkD\nLzYzGMGdEzULPI+J0lOsk5fUQyyYXpcKk+pBpML2UEMKhmtBCXo/2dEcUSMdHJeF\nfYCiWOPwswKBgQCGV4rjYWpjw+6sI+kGWinFnRvuTQBgo8VHMMQcDuMJY2s0yDRr\nCE+0MXcCQ9KUSE/irbG4S0NVSDyJBNDXDjgPdfQvYaw4RuMUTGtzUn0LrsibKp4y\n3JeHHqXIwhaNJeieVQuykr5cnYB1MwPVQPbJhPm35+vvxFuAPF1OMfltXQKBgFaW\nPbTVGCTes0EHC8Isb7LnX3wzyLaLbJdxXL4Ouv+nWC7/NtHz6bCA/Z/rGhlfqzEj\nTpLahgHa6cuaq2fFntHqnngbh/cPSkimp5ryvDgFAo9uCSGdB7u3RSlb5x3QpHd7\n8ZtzNguZVCtZ+/lP2oQliCN3ni7N5ZU2hN8/FJWvAoGAGkdhTBZGj/x9DpDqmQnT\nfitDk/l+eigCei1ToOD15V/4VIspsYpeX+KUEwY+odocHirGJHLfOagtIDQB8DOZ\n5Vn9ZPQqQMp9GcjdcjnvJ7BLytGIodyIEy5woZZ5aaGIhm83PC2rK0LPsxhkMFxi\nt4GZHDM4S43tSK6+taeCwew=\n-----END PRIVATE KEY-----\n",
+  "client_email": "swu-ds525-load-data-to-bigquer@crucial-subset-351106.iam.gserviceaccount.com",
+  "client_id": "110231357259458038188",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/swu-ds525-load-data-to-bigquer%40crucial-subset-351106.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
