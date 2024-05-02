@@ -12,6 +12,7 @@ docker-compose up
 
 ```bash
 source ENV/bin/activate
+pip install -r requriments.txt
 ```
 ```bash
 pip install dbt-core dbt-postgres
