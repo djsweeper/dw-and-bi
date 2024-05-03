@@ -74,7 +74,7 @@ with DAG(
         python_callable = _get_files,
     )
     data_folder = "/opt/airflow/dags/data/" # local dir
-    gcs_path = "gs://swu-ds-525-525/"
+    gcs_path = "pm25/"
     bucket_name = "swu-ds-525-525" # bucket name on GCS
     csv_files = [file for file in os.listdir(data_folder) if file.endswith(".csv")]
     path = []
@@ -87,6 +87,7 @@ with DAG(
         dst = gcs_path,
         bucket = bucket_name,
         gcp_conn_id = "my_scp_conn",
+        mime_type = 'text/csv',
         )      
 
     
