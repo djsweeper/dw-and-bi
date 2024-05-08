@@ -1,0 +1,132 @@
+[2024-05-08T01:23:12.180+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-08T01:23:12.209+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: sample.upload_to_gcs scheduled__2024-05-05T11:00:00+00:00 [queued]>
+[2024-05-08T01:23:12.218+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: sample.upload_to_gcs scheduled__2024-05-05T11:00:00+00:00 [queued]>
+[2024-05-08T01:23:12.218+0000] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2024-05-08T01:23:12.252+0000] {taskinstance.py:2327} INFO - Executing <Task(LocalFilesystemToGCSOperator): upload_to_gcs> on 2024-05-05 11:00:00+00:00
+[2024-05-08T01:23:12.308+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'sample', 'upload_to_gcs', 'scheduled__2024-05-05T11:00:00+00:00', '--job-id', '239', '--raw', '--subdir', 'DAGS_FOLDER/my_dag.py', '--cfg-path', '/tmp/tmp0uur9c77']
+[2024-05-08T01:23:12.315+0000] {standard_task_runner.py:91} INFO - Job 239: Subtask upload_to_gcs
+[2024-05-08T01:23:12.278+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=436) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-05-08T01:23:12.328+0000] {standard_task_runner.py:63} INFO - Started process 444 to run task
+[2024-05-08T01:23:12.425+0000] {task_command.py:426} INFO - Running <TaskInstance: sample.upload_to_gcs scheduled__2024-05-05T11:00:00+00:00 [running]> on host 5bc5768c5236
+[2024-05-08T01:23:12.841+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='sample' AIRFLOW_CTX_TASK_ID='upload_to_gcs' AIRFLOW_CTX_EXECUTION_DATE='2024-05-05T11:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-05-05T11:00:00+00:00'
+[2024-05-08T01:23:12.844+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-08T01:23:12.895+0000] {connection.py:274} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2024-05-08T01:23:12.910+0000] {base.py:84} INFO - Using connection ID 'my_gcp_conn' for task execution.
+[2024-05-08T01:23:13.506+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-05_1.csv uploaded to pm25_raw/2024-05-05_1.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:13.580+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-05_5.csv uploaded to pm25_raw/2024-05-05_5.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:13.655+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-04_2.csv uploaded to pm25_raw/2024-05-04_2.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:13.740+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-02_19.csv uploaded to pm25_raw/2024-05-02_19.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:13.815+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-02_21.csv uploaded to pm25_raw/2024-05-02_21.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:13.880+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-03_22.csv uploaded to pm25_raw/2024-05-03_22.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:13.943+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-03_1.csv uploaded to pm25_raw/2024-05-03_1.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:14.011+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-05_10.csv uploaded to pm25_raw/2024-05-05_10.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:14.077+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-08_0.csv uploaded to pm25_raw/2024-05-08_0.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:14.135+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-08_7.csv uploaded to pm25_raw/2024-05-08_7.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:14.203+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-02_18.csv uploaded to pm25_raw/2024-05-02_18.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:14.258+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-02_10.csv uploaded to pm25_raw/2024-05-02_10.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:14.321+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-07_13.csv uploaded to pm25_raw/2024-05-07_13.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:14.380+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-07_21.csv uploaded to pm25_raw/2024-05-07_21.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:14.436+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-07_17.csv uploaded to pm25_raw/2024-05-07_17.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:14.517+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-04_10.csv uploaded to pm25_raw/2024-05-04_10.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:14.588+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-02_15.csv uploaded to pm25_raw/2024-05-02_15.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:14.659+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-05_13.csv uploaded to pm25_raw/2024-05-05_13.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:14.736+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-04_22.csv uploaded to pm25_raw/2024-05-04_22.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:14.800+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-04_6.csv uploaded to pm25_raw/2024-05-04_6.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:14.873+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-05_17.csv uploaded to pm25_raw/2024-05-05_17.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:14.926+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-08_5.csv uploaded to pm25_raw/2024-05-08_5.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:14.991+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-04_19.csv uploaded to pm25_raw/2024-05-04_19.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:15.045+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-07_12.csv uploaded to pm25_raw/2024-05-07_12.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:15.102+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-04_9.csv uploaded to pm25_raw/2024-05-04_9.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:15.162+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-04_15.csv uploaded to pm25_raw/2024-05-04_15.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:15.254+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-02_13.csv uploaded to pm25_raw/2024-05-02_13.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:15.314+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-04_18.csv uploaded to pm25_raw/2024-05-04_18.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:15.387+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-04_21.csv uploaded to pm25_raw/2024-05-04_21.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:15.452+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-03_19.csv uploaded to pm25_raw/2024-05-03_19.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:15.515+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-03_21.csv uploaded to pm25_raw/2024-05-03_21.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:15.582+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-02_7.csv uploaded to pm25_raw/2024-05-02_7.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:15.654+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-03_23.csv uploaded to pm25_raw/2024-05-03_23.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:15.734+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-02_2.csv uploaded to pm25_raw/2024-05-02_2.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:15.785+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-08_4.csv uploaded to pm25_raw/2024-05-08_4.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:15.860+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-05_4.csv uploaded to pm25_raw/2024-05-05_4.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:15.920+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-04_5.csv uploaded to pm25_raw/2024-05-04_5.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:15.991+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-04_23.csv uploaded to pm25_raw/2024-05-04_23.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:16.049+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-03_15.csv uploaded to pm25_raw/2024-05-03_15.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:16.104+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-03_10.csv uploaded to pm25_raw/2024-05-03_10.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:16.166+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-05_12.csv uploaded to pm25_raw/2024-05-05_12.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:16.225+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-02_17.csv uploaded to pm25_raw/2024-05-02_17.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:16.289+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-04_17.csv uploaded to pm25_raw/2024-05-04_17.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:16.349+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-02_3.csv uploaded to pm25_raw/2024-05-02_3.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:16.406+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-05_15.csv uploaded to pm25_raw/2024-05-05_15.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:16.467+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-04_8.csv uploaded to pm25_raw/2024-05-04_8.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:16.533+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-07_23.csv uploaded to pm25_raw/2024-05-07_23.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:16.592+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-03_4.csv uploaded to pm25_raw/2024-05-03_4.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:16.657+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-02_22.csv uploaded to pm25_raw/2024-05-02_22.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:16.718+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-03_5.csv uploaded to pm25_raw/2024-05-03_5.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:16.771+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-07_22.csv uploaded to pm25_raw/2024-05-07_22.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:16.826+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-05_0.csv uploaded to pm25_raw/2024-05-05_0.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:16.891+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-02_9.csv uploaded to pm25_raw/2024-05-02_9.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:16.951+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-02_23.csv uploaded to pm25_raw/2024-05-02_23.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:17.008+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-04_20.csv uploaded to pm25_raw/2024-05-04_20.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:17.073+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-05_11.csv uploaded to pm25_raw/2024-05-05_11.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:17.121+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-07_18.csv uploaded to pm25_raw/2024-05-07_18.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:17.171+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-07_20.csv uploaded to pm25_raw/2024-05-07_20.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:17.234+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-04_0.csv uploaded to pm25_raw/2024-05-04_0.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:17.297+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-04_14.csv uploaded to pm25_raw/2024-05-04_14.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:17.416+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-03_6.csv uploaded to pm25_raw/2024-05-03_6.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:17.473+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-03_20.csv uploaded to pm25_raw/2024-05-03_20.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:17.532+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-03_12.csv uploaded to pm25_raw/2024-05-03_12.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:17.592+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-03_16.csv uploaded to pm25_raw/2024-05-03_16.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:17.682+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-07_19.csv uploaded to pm25_raw/2024-05-07_19.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:17.742+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-02_14.csv uploaded to pm25_raw/2024-05-02_14.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:17.797+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-02_12.csv uploaded to pm25_raw/2024-05-02_12.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:17.858+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-03_17.csv uploaded to pm25_raw/2024-05-03_17.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:17.915+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-02_16.csv uploaded to pm25_raw/2024-05-02_16.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:17.962+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-07_14.csv uploaded to pm25_raw/2024-05-07_14.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:18.026+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-02_6.csv uploaded to pm25_raw/2024-05-02_6.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:18.079+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-05_16.csv uploaded to pm25_raw/2024-05-05_16.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:18.143+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-03_11.csv uploaded to pm25_raw/2024-05-03_11.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:18.191+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-08_2.csv uploaded to pm25_raw/2024-05-08_2.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:18.258+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-03_7.csv uploaded to pm25_raw/2024-05-03_7.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:18.316+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-02_8.csv uploaded to pm25_raw/2024-05-02_8.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:18.371+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-03_2.csv uploaded to pm25_raw/2024-05-03_2.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:18.432+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-05_6.csv uploaded to pm25_raw/2024-05-05_6.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:18.493+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-03_9.csv uploaded to pm25_raw/2024-05-03_9.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:18.543+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-07_9.csv uploaded to pm25_raw/2024-05-07_9.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:18.611+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-02_5.csv uploaded to pm25_raw/2024-05-02_5.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:18.675+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-04_3.csv uploaded to pm25_raw/2024-05-04_3.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:18.744+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-02_4.csv uploaded to pm25_raw/2024-05-02_4.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:18.805+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-03_18.csv uploaded to pm25_raw/2024-05-03_18.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:18.862+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-07_16.csv uploaded to pm25_raw/2024-05-07_16.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:18.907+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-07_15.csv uploaded to pm25_raw/2024-05-07_15.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:18.958+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-07_10.csv uploaded to pm25_raw/2024-05-07_10.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:19.009+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-05_14.csv uploaded to pm25_raw/2024-05-05_14.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:19.069+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-02_11.csv uploaded to pm25_raw/2024-05-02_11.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:19.134+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-04_16.csv uploaded to pm25_raw/2024-05-04_16.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:19.190+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-04_4.csv uploaded to pm25_raw/2024-05-04_4.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:19.245+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-02_1.csv uploaded to pm25_raw/2024-05-02_1.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:19.300+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-02_0.csv uploaded to pm25_raw/2024-05-02_0.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:19.358+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-04_7.csv uploaded to pm25_raw/2024-05-04_7.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:19.419+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-01_23.csv uploaded to pm25_raw/2024-05-01_23.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:19.531+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-04_1.csv uploaded to pm25_raw/2024-05-04_1.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:19.596+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-03_0.csv uploaded to pm25_raw/2024-05-03_0.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:19.646+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-08_6.csv uploaded to pm25_raw/2024-05-08_6.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:19.713+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-05_9.csv uploaded to pm25_raw/2024-05-05_9.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:19.796+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-05_7.csv uploaded to pm25_raw/2024-05-05_7.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:19.847+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-08_1.csv uploaded to pm25_raw/2024-05-08_1.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:19.898+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-08_3.csv uploaded to pm25_raw/2024-05-08_3.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:19.951+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-07_8.csv uploaded to pm25_raw/2024-05-07_8.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:20.004+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-05_8.csv uploaded to pm25_raw/2024-05-05_8.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:20.067+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-04_12.csv uploaded to pm25_raw/2024-05-04_12.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:20.124+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-03_3.csv uploaded to pm25_raw/2024-05-03_3.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:20.177+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-02_20.csv uploaded to pm25_raw/2024-05-02_20.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:20.239+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-05_3.csv uploaded to pm25_raw/2024-05-05_3.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:20.299+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-05_2.csv uploaded to pm25_raw/2024-05-05_2.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:20.353+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-03_8.csv uploaded to pm25_raw/2024-05-03_8.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:20.416+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-04_13.csv uploaded to pm25_raw/2024-05-04_13.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:20.462+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-07_11.csv uploaded to pm25_raw/2024-05-07_11.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:20.517+0000] {gcs.py:557} INFO - File /opt/***/dags/data/2024-05-04_11.csv uploaded to pm25_raw/2024-05-04_11.csv in dw-projec-swu-ds525 bucket
+[2024-05-08T01:23:20.518+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-08T01:23:20.534+0000] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=sample, task_id=upload_to_gcs, execution_date=20240505T110000, start_date=20240508T012312, end_date=20240508T012320
+[2024-05-08T01:23:20.602+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-05-08T01:23:20.650+0000] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-05-08T01:23:20.681+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

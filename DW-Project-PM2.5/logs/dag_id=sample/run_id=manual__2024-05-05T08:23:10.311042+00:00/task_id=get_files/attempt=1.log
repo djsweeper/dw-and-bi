@@ -1,0 +1,19 @@
+[2024-05-05T08:23:14.496+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-05T08:23:14.521+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: sample.get_files manual__2024-05-05T08:23:10.311042+00:00 [queued]>
+[2024-05-05T08:23:14.530+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: sample.get_files manual__2024-05-05T08:23:10.311042+00:00 [queued]>
+[2024-05-05T08:23:14.530+0000] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2024-05-05T08:23:14.562+0000] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): get_files> on 2024-05-05 08:23:10.311042+00:00
+[2024-05-05T08:23:14.597+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=23763) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-05-05T08:23:14.598+0000] {standard_task_runner.py:63} INFO - Started process 23803 to run task
+[2024-05-05T08:23:14.596+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'sample', 'get_files', 'manual__2024-05-05T08:23:10.311042+00:00', '--job-id', '151', '--raw', '--subdir', 'DAGS_FOLDER/my_dag.py', '--cfg-path', '/tmp/tmpyw_2ukyy']
+[2024-05-05T08:23:14.600+0000] {standard_task_runner.py:91} INFO - Job 151: Subtask get_files
+[2024-05-05T08:23:14.686+0000] {task_command.py:426} INFO - Running <TaskInstance: sample.get_files manual__2024-05-05T08:23:10.311042+00:00 [running]> on host 5bc5768c5236
+[2024-05-05T08:23:14.868+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='sample' AIRFLOW_CTX_TASK_ID='get_files' AIRFLOW_CTX_EXECUTION_DATE='2024-05-05T08:23:10.311042+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-05T08:23:10.311042+00:00'
+[2024-05-05T08:23:14.870+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-05T08:23:15.030+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/urllib3/connectionpool.py:1061 InsecureRequestWarning: Unverified HTTPS request is being made to host 'opendata.onde.go.th'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/1.26.x/advanced-usage.html#ssl-warnings
+[2024-05-05T08:23:18.436+0000] {python.py:237} INFO - Done. Returned value was: None
+[2024-05-05T08:23:18.437+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-05T08:23:18.444+0000] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=sample, task_id=get_files, execution_date=20240505T082310, start_date=20240505T082314, end_date=20240505T082318
+[2024-05-05T08:23:18.475+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-05-05T08:23:18.501+0000] {taskinstance.py:3482} INFO - 2 downstream tasks scheduled from follow-on schedule check
+[2024-05-05T08:23:18.508+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

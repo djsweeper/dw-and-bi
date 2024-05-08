@@ -1,0 +1,20 @@
+[2024-05-05T05:49:26.129+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-05T05:49:26.156+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: sample.upload_clean_to_gcs manual__2024-05-05T05:49:01.286722+00:00 [queued]>
+[2024-05-05T05:49:26.177+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: sample.upload_clean_to_gcs manual__2024-05-05T05:49:01.286722+00:00 [queued]>
+[2024-05-05T05:49:26.177+0000] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2024-05-05T05:49:26.204+0000] {taskinstance.py:2327} INFO - Executing <Task(LocalFilesystemToGCSOperator): upload_clean_to_gcs> on 2024-05-05 05:49:01.286722+00:00
+[2024-05-05T05:49:26.225+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'sample', 'upload_clean_to_gcs', 'manual__2024-05-05T05:49:01.286722+00:00', '--job-id', '79', '--raw', '--subdir', 'DAGS_FOLDER/my_dag.py', '--cfg-path', '/tmp/tmpbylw47p6']
+[2024-05-05T05:49:26.235+0000] {standard_task_runner.py:91} INFO - Job 79: Subtask upload_clean_to_gcs
+[2024-05-05T05:49:26.235+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=51050) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-05-05T05:49:26.236+0000] {standard_task_runner.py:63} INFO - Started process 51058 to run task
+[2024-05-05T05:49:26.301+0000] {task_command.py:426} INFO - Running <TaskInstance: sample.upload_clean_to_gcs manual__2024-05-05T05:49:01.286722+00:00 [running]> on host 5bc5768c5236
+[2024-05-05T05:49:26.437+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='sample' AIRFLOW_CTX_TASK_ID='upload_clean_to_gcs' AIRFLOW_CTX_EXECUTION_DATE='2024-05-05T05:49:01.286722+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-05T05:49:01.286722+00:00'
+[2024-05-05T05:49:26.439+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-05T05:49:26.449+0000] {connection.py:274} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2024-05-05T05:49:26.464+0000] {base.py:84} INFO - Using connection ID 'my_gcp_conn' for task execution.
+[2024-05-05T05:49:26.949+0000] {gcs.py:557} INFO - File /opt/***/dags/data/all_data.csv uploaded to pm25_cleaned/all_data.csv in dw-projec-swu-ds525 bucket
+[2024-05-05T05:49:26.950+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-05T05:49:26.957+0000] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=sample, task_id=upload_clean_to_gcs, execution_date=20240505T054901, start_date=20240505T054926, end_date=20240505T054926
+[2024-05-05T05:49:27.021+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-05-05T05:49:27.041+0000] {taskinstance.py:3482} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-05-05T05:49:27.049+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

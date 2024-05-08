@@ -1,0 +1,152 @@
+station_id,name_th,name_en,area_th,area_en,station_type,lat,long,date,time,pm25_color_id,pm25_aqi,pm25_value
+02t,มหาวิทยาลัยราชภัฏบ้านสมเด็จเจ้าพระยา,Bansomdejchaopraya Rajabhat University,"แขวงหิรัญรูจี เขตธนบุรี, กรุงเทพฯ","Hiran Ruchi, Khet Thon Buri, Bangkok",GROUND,13.732846,100.487662,2024-05-08,01:00,2,44,22.7
+03t,ริมถนนทางหลวงหมายเลข 3902 ,Highway NO.3902 km.13 +600,"ริมถนนกาญจนาภิเษก เขตบางขุนเทียน, กรุงเทพฯ","Kanchanaphisek Rd, Bang Khun Thian, Bangkok",GROUND,13.636514,100.414262,2024-05-08,00:00,3,55,26.0
+05t,กรมอุตุนิยมวิทยาบางนา,Thai Meteorological Department ,"แขวงบางนา เขตบางนา, กรุงเทพฯ","Bang Na, Khet Bang Na, Bangkok",GROUND,13.666183,100.605742,2024-05-08,01:00,2,50,25.0
+11t,การเคหะชุมชนห้วยขวาง ,National Housing  Huaykwang,"แขวงดินแดง เขตดินแดง, กรุงเทพฯ","Din Daeng, Khet Din Daeng, Bangkok",GROUND,13.77553,100.569195,2024-05-08,01:00,2,42,21.6
+12t,โรงเรียนนนทรีวิทยา ,Nonsi Witthaya School,"แขวงช่องนนทรี เขตยานนาวา, กรุงเทพฯ","Chong Nonsi, Khet Yannawa, Bangkok",GROUND,13.70806667,100.5473333,2024-05-08,01:00,2,32,17.5
+50t,โรงพยาบาลจุฬาลงกรณ์,Chulalongkorn Hospital,"ริมถนนพระราม 4 เขตปทุมวัน, กรุงเทพฯ","Rama IV Rd. Khet Pathum Wan, Bangkok",GROUND,13.729852,100.536501,2024-05-08,01:00,2,50,24.9
+52t,การไฟฟ้าย่อยธนบุรี ,Thonburi Power Sub-Station,"ริมถนนอินทรพิทักษ์ เขตธนบุรี, กรุงเทพฯ","Intarapitak Rd. Khet Thon Buri, Bangkok",GROUND,13.727622,100.486568,2024-05-08,01:00,3,51,25.2
+53t,สถานีตำรวจนครบาลโชคชัย ,Chokchai Police Station,"ริมถนนลาดพร้าว เขตวังทองหลาง, กรุงเทพฯ","Lat Phrao Rd. Khet Wang Thonglang, Bangkok",GROUND,13.7954248,100.5930298,2024-05-08,01:00,2,38,19.9
+54t,การเคหะชุมชนดินแดง ,National Housing Authority Dindaeng,"ริมถนนดินแดง เขตดินแดง, กรุงเทพฯ","Din Daeng Rd. Khet Din Daeng, Bangkok",GROUND,13.76251667,100.5502,2024-05-08,01:00,3,71,30.1
+59t,กรมประชาสัมพันธ์,The Government Public Relations Department ,"แขวงพญาไท เขตพญาไท, กรุงเทพฯ","Phaya Thai, Khet Phaya Thai, Bangkok",GROUND,13.783185,100.540489,2024-05-08,01:00,2,28,15.9
+61t,โรงเรียนบดินทรเดชา (สิงห์ สิงหเสนี) ,Bodindecha Sing Singhaseni School,"แขวงพลับพลา เขตวังทองหลาง, กรุงเทพฯ","Pubpla, Khet Wang Thonglang, Bangkok",GROUND,13.769634,100.614567,2024-05-08,01:00,2,33,18.1
+bkp101t,สำนักงานเขตคลองสามวา,"Khlong Sam Wa District Office, Bangkok","เขตคลองสามวา, กรุงเทพฯ","Khlong Sam Wa, Bangkok",BKK,13.859911,100.704002,2024-05-08,01:00,2,50,25.0
+bkp104t,สำนักงานเขตบางแค,"Bang Khae District Office, Bangkok","เขตบางแค, กรุงเทพฯ","Bang Khae, Bangkok",BKK,13.696314,100.409049,2024-05-08,01:00,2,49,24.5
+bkp112t,สำนักงานเขตบางคอแหลม (Mobile),"Bang Kho Laem District Office, Bangkok (Mobile)","เขตบางคอแหลม, กรุงเทพฯ","Bang Kho Laem, Bangkok",BKK,13.69304,100.50244,2024-05-08,01:00,2,36,19.2
+bkp116t,สวนจตุจักร ถนนพหลโยธิน แขวงจตุจักร เขตจตุจักร,Chatuchak Park,สวนจตุจักร เขตจตุจักร,"Chatuchak Park, Chatuchak, Bangkok",BKK,13.802546,100.5509191,2024-05-08,01:00,2,35,18.7
+bkp119t,อุทยานเบญจสิริ,Benchasiri Park,อุทยานเบญจสิริ เขตคลองเตย,"Benchasiri Park, Klong Toei, Bangkok",BKK,13.7304916,100.5684634,2024-05-08,01:00,2,35,18.7
+bkp120t,สวนรมณีย์ทุ่งสีกัน,Rommani Thungsikan Park,สวนรมณีย์ทุ่งสีกัน เขตดอนเมือง,"Rommani Thungsikan Park, Don Mueang, Bangkok",BKK,13.9288678,100.5684666,2024-05-08,01:00,2,39,20.4
+bkp121t,สวนธนบุรีรมย์,Thonburirom Park,สวนธนบุรีรมย์ เขตทุ่งครุ,"Thonburirom Park, Thung Khru, Bangkok",BKK,13.6502295,100.4909771,2024-05-08,01:00,2,32,17.7
+bkp122t,สวนเบญจกิติ,Benjakitti Park,สวนเบญจกิติ เขตคลองเตย,"Benjakitti Park, Khlong Toei, Bangkok",BKK,13.7328791,100.5600172,2024-05-08,01:00,2,30,16.6
+bkp123t,สวนสมเด็จพระนางเจ้าสิริกิติ์ฯ,Queen Sirikit Park,สวนสมเด็จพระนางเจ้าสิริกิติ์ฯ เขตจตุจักร,"Queen Sirikit Park, Chatuchak, Bangkok",BKK,13.8055472,100.5488338,2024-05-08,01:00,2,32,17.4
+bkp124t,สวนเฉลิมพระเกียรติ 80 พรรษา,80th Anniversary Commemoration Park,สวนเฉลิมพระเกียรติ 80 พรรษา เขตบางกอกน้อย,"80th Anniversary Commemoration Park, Bangkok Noi, Bangkok",BKK,13.7716446,100.4681128,2024-05-08,01:00,2,41,21.4
+bkp125t,สวนเสรีไทย,Serithai Park,สวนเสรีไทย เขตบึงกุ่ม,"Serithai Park, Bueng Kum, Bangkok",BKK,13.7855673,100.6733359,2024-05-08,01:00,2,48,24.3
+bkp126t,สวนบางแคภิรมย์,Bang Khae Phirom Park,สวนบางแคภิรมย์ เขตบางแค,"Bang Khae Phirom Park, Bang Khae, Bangkok",BKK,13.6863478,100.3844036,2024-05-08,00:00,2,35,18.9
+bkp128t,สวนพระนคร,Phra Nakhon Park,สวนพระนคร เขตลาดกระบัง,"Phra Nakhon Park, Lat Krabang, Bangkok",BKK,13.7201042,100.7807077,2024-05-08,01:00,1,22,13.3
+bkp129t,สวนหนองจอก,Nong Chok Park,สวนหนองจอก เขตหนองจอก,"Nong Chok Park, Nong Chok, Bangkok",BKK,13.855656,100.8585539,2024-05-08,01:00,1,24,14.6
+bkp130t,สวนกีฬารามอินทรา,Ramintra Sports Park,สวนกีฬารามอินทรา เขตบางเขน,"Ramintra Sports Park, Bang Khen, Bangkok",BKK,13.8778763,100.6207085,2024-05-08,01:00,2,30,16.6
+bkp131t,สวนสาธารณะเฉลิมพระเกียรติ 6 รอบพระชนมพรรษา,Public Park to commemorate the sixth anniversary of His Majesty the King,สวนสาธารณะเฉลิมพระเกียรติ 6 รอบพระชนมพรรษา เขตบางคอแหลม,"Public Park to commemorate the sixth anniversary of His Majesty the King, Bang Kho Laem, Bangkok",BKK,13.697252,100.497185,2024-05-08,00:00,2,33,18.1
+bkp133t,สวนหลวงพระราม 8,Rama VIII Park,สวนหลวงพระราม 8 เขตบางพลัด,"Rama VIII Park, Bang Plad, Bangkok",BKK,13.7693437,100.4945337,2024-05-08,01:00,2,47,23.6
+bkp56t,สำนักงานเขตดินแดง กรุงเทพฯ,"Din Dang, Bangkok","ริมถนนวิภาวดีรังสิต, เขตดินแดง, กรุงเทพฯ","Din Dang, Bangkok",BKK,13.7619223,100.558606,2024-05-08,01:00,2,50,25.0
+bkp57t,สำนักงานเขตพระโขนง กรุงเทพฯ,"Phra Kanong District Office,  Bangkok","ริมถนนสุขุมวิท เขตพระโขนง, กรุงเทพฯ","Phra Kanong, Bangkok",BKK,13.691511,100.61457,2024-05-08,01:00,2,50,24.8
+bkp58t,สำนักงานเขตราษฎร์บูรณะ กรุงเทพฯ,"Rat Burana District Office,  Bangkok","ริมถนนราษฎร์บูรณะ, เขตราษฎร์บูรณะ, กรุงเทพฯ","Rat Burana, Bangkok",BKK,13.6821364,100.5060513,2024-05-08,01:00,3,59,27.1
+bkp60t,ริมสวนหย่อมตรงข้ามสำนักงานเขตดุสิต,"Dusit District Office, Bangkok","ริมถนนพระราม 5 เขตดุสิต, กรุงเทพฯ","RamaV Roadside, Dusit, Bangkok",BKK,13.776664,100.520982,2024-05-08,01:00,2,38,20.0
+bkp61t,สำนักงานคณะกรรมการพัฒนาเศรษฐกิจและสังคมแห่งชาติ,National Economic and Social Development Council Office,"ริมถนนกรุงเกษม เขตป้อมปราบศัตรูพ่าย, กรุงเทพฯ","Krung Kasem Roadside, Pom Prap Sattru Phai, Bangkok",BKK,13.756281,100.514267,2024-05-08,01:00,3,65,28.6
+bkp70t,ริมถนนซอยสุขุมวิท 63,"Soi Sukhumwit 63 Roadside Wattana, Bangkok","ริมถนนซอยสุขุมวิท 63 เขตวัฒนา, กรุงเทพฯ","Soi Sukhumwit 63 Roadside, Wattana, Bangkok",BKK,13.722096,100.584559,2024-05-08,00:00,2,36,19.3
+bkp72t,บิ๊กซี ซุปเปอร์เซ็นเตอร์ บางนา,Big C Supercenter Bang Na,"ริมถนนบางนา-ตราด เขตบางนา, กรุงเทพฯ","Bang Na-Trat Roadside, Bang na, Bangkok",BKK,13.667987,100.635313,2024-05-08,01:00,3,86,34.0
+bkp73t,มหาวิทยาลัยเกษตรศาสตร์,Kasertsart University,"ริมถนนพหลโยธิน แยก ม.เกษตรศาสตร์ เขตจตุจักร, กรุงเทพฯ","Kasertsart Intersection, Chatuchak, Bangkok",BKK,13.839923,100.575632,2024-05-08,01:00,2,49,24.6
+bkp75t,สำนักงานเขตสายไหม,"Sai Mai District Office, Bangkok","ริมถนนสุขาภิบาล5 เขตสายไหม, กรุงเทพฯ","Sukhaphiban 5 Roadside, Sai Mai, Bangkok",BKK,13.896035,100.660628,2024-05-08,01:00,2,34,18.5
+bkp76t,สำนักงานเขตบางกะปิ,"Bang Kapi District Office, Bangkok","ริมถนนนวมินทร์ แยกบางกะปิ เขตบางกะปิ, กรุงเทพฯ","Navamin Roadside, Bang Kapi, Bangkok",BKK,13.766478,100.647785,2024-05-08,01:00,2,32,17.4
+bkp79t,สวนเฉลิมพระเกียรติ ร.9,"Chaloem Phrakiat Rama 9 Park Min buri, Bangkok","ริมถนนสีหบุรานุกิจ เขตมีนบุรี, กรุงเทพฯ","Sihaburanukit Roadside, Meenburi, Bangkok",BKK,13.813578,100.73208,2024-05-08,01:00,2,43,22.1
+bkp80t,สำนักงานเขตหนองจอก,"Nong Chok District Office, Bangkok","ริมถนนเลียบวารี เขตหนองจอก, กรุงเทพฯ","Liap Wari Roadsire, Nong Chok, Bangkok",BKK,13.855362,100.86267,2024-05-08,01:00,2,41,21.1
+bkp84t,สี่แยกท่าพระ,Tha phra Intersection,"ริมถนนแยกท่าพระ เขตบางกอกใหญ่, กรุงเทพฯ","Tha phra Intersection, Bangkok Yai, Bangkok",BKK,13.729431,100.474373,2024-05-08,01:00,3,53,25.7
+bkp86t,ถนนพุทธมณฑลสาย 1 ตัดกับถนนบรมราชชนนี,Phutthamonthon 1 - Borommaratchachonnani Intersection,"ริมถนนพุทธมณฑล 1 เขตตลิ่งชัน, กรุงเทพฯ","Phutthamonthon 1 Roadside, Taling Chan, Bangkok",BKK,13.780778,100.426727,2024-05-08,01:00,3,59,27.0
+bkp87t,ตลาดธนบุรีสนามหลวง 2,Thon Buri Market Sanam Luang 2,"ริมถนนคลองทวีวัฒนา เขตทวีวัฒนา, กรุงเทพฯ","Klong Thawi Watthana Roadside, Thawi Watthana, Bangkok",BKK,13.746257,100.355099,2024-05-08,01:00,3,58,26.9
+bkp89t,"ริมถนนมาเจริญ เพชรเกษม 8, เขตหนองแขม","Ma Charean Roadside, Petcha Kasem 8, Nong Khaem","ริมถนนมาเจริญ เพชรเกษม 81 เขตหนองแขม, กรุงเทพฯ","Ma Charean Roadside Nong Khaem, Bangkok",BKK,13.705582,100.343164,2024-05-08,01:00,3,52,25.3
+bkp90t,ตลาดบางบอน 5,Bang Bon 5 Market,"ริมถนนเอกชัย เขตบางบอน, กรุงเทพฯ","Ekkachai Roadside, Bang Bon, Bangkok",BKK,13.639165,100.372958,2024-05-08,01:00,3,58,26.9
+bkp91t,มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าธนบุรี,King Mongkut's University of Technology Thonburi ,"ริมถนนประชาอุทิศ เขตทุ่งครุ, กรุงเทพฯ","Pracha Uthit Roadside, Thung Khru, Bangkok",BKK,13.651004,100.496673,2024-05-08,01:00,2,46,23.5
+bkp92t,สำนักงานเขตพระนคร,"Phra Nakhon District Office, Bangkok","ริมถนนสามเสน เขตพระนคร, กรุงเทพฯ","Samsen Roadside, Phra Nakhon, Bangkok",BKK,13.76415,100.499077,2024-05-08,01:00,2,35,18.7
+bkp93t,สำนักงานเขตห้วยขวาง,"Huai Khwang District Office, Bangkok","เขตห้วยขวาง, กรุงเทพฯ","Huai Khwang, Bangkok",BKK,13.77682,100.579543,2024-05-08,01:00,2,34,18.6
+bkp94t,สำนักงานเขตคลองเตย,"Khlong Toei District Office, Bangkok","แขวงคลองเตย เขตคลองเตย, กรุงเทพฯ","Khlong Toei, Bangkok",BKK,13.708488,100.583747,2024-05-08,01:00,3,57,26.5
+bkp96t,สำนักงานเขตลาดพร้าว,"Ladphrao District Office, Bangkok","เขตลาดพร้าว, กรุงเทพฯ","Ladphrao, Bangkok",BKK,13.803587,100.607535,2024-05-08,01:00,2,35,19.0
+bkp99t,สำนักงานเขตสะพานสูง,"Saphan Sung District Office, Bangkok","เขตสะพานสูง, กรุงเทพฯ","Saphan Sung, Bangkok",BKK,13.768892,100.685743,2024-05-08,01:00,2,28,15.9
+o10,เคหะชุมชนคลองจั่น,National Housing Authority Klongchan,"แขวงคลองจั่น เขตบางกะปิ, กรุงเทพฯ","Khlong Chan, Khet Bang Kapi, Bangkok",GROUND,13.779873,100.646009,2024-05-08,01:00,2,30,16.8
+79t,สถานีอุตุนิยมวิทยา จ.กาญจนบุรี,Kanchanaburi Meteorological Station,"ต.บ้านเหนือ อ.เมือง, กาญจนบุรี","Ban Nuea, Mueang, Kanchanaburi",GROUND,14.022376,99.536195,2024-05-08,01:00,3,64,28.4
+107t,สวนสาธารณะแก่งดอนกลาง,KAENG DON KLANG PARK,"ต.กาฬสินธุ์ อ.เมือง, กาฬสินธ์ุ","Kalasin Subdistrict, Mueang Kalasin District, Kalasin",GROUND,16.4436,103.513,2024-05-08,01:00,3,60,27.3
+94t,ลานอนุรักษ์วัฒนธรรมไทยสิริจิตอุทยาน,Sirichit Thai Cultural Conservation Ground,"ต.ในเมือง อ.เมือง, กำแพงเพชร","Nai Mueang Subdistrict, Mueang District, Kamphaeng Phet",GROUND,16.475374,99.525425,2024-05-07,23:00,4,104,38.6
+46t,ส่วนอุทกวิทยา สำนักงานทรัพยากรน้ำภาคที่4 ขอนแก่น,Hydrogeological Group Water Resources Regional Office4 khonkaen,"ต.ในเมือง อ.เมือง, ขอนแก่น","Nai Mueang, Mueang, Khon Kaen",GROUND,16.44538333,102.83525,2024-05-08,01:00,2,45,22.8
+100t,สถานีอุตุนิยมวิทยาจันทบุรี,Chanthaburi Meteorological Station,"ต.วัดใหม่ อ.เมือง, จันทบุรี","Wat Mai Subdistrict, Mueang District, Chanthaburi",GROUND,12.6095704,102.1040804,2024-05-08,01:00,1,25,14.9
+60t,สำนักงานเทศบาลตำบลทุ่งสะเดา,Municipality Office Tungsadao,"ต.วังเย็น อ.แปลงยาว, ฉะเชิงเทรา","Wang Yen, Plaeng Yao, Chachoengsao",GROUND,13.5885,101.2863333,2024-05-08,01:00,1,22,13.0
+33t,โรงพยาบาลส่งเสริมสุขภาพตำบลบ้านเขาหิน,Health Promotion Hospital Bankhaohin,"ต.บ่อวิน อ.ศรีราชา, ชลบุรี","Bo Win, Si Racha, Chon buri",GROUND,13.054551,101.098128,2024-05-08,00:00,1,23,13.8
+34t,สำนักงานสิ่งแวดล้อมภาคที่ 13 ,"Environment Agency Section 13, Chonburi","ต.บ้านสวน อ.เมือง, ชลบุรี","Ban Suan, Mueang, Chon Buri",GROUND,13.35461667,100.9792167,2024-05-08,01:00,2,29,16.5
+o61,สนามกีฬาเทศบาลแหลมฉบัง ,Laem Chabang Municipal Stadium,"ต.ทุ่งสุขลา อ.ศรีราชา, ชลบุรี","Thung Sukhla, Si Racha, Chon buri",GROUND,13.11923333,100.91855,2024-05-08,01:00,2,29,16.4
+o26,สำนักงานทรัพยากรธรรมชาติและสิ่งแวดล้อมจังหวัดชัยนาท,"Natural Resources and Environment Office, Chainat","ต.ในเมือง อ.เมือง, ชัยนาท","Nai Mueang Subdistrict, Mueang District, Chainat",MOBILE,15.173056,100.126944,2024-05-08,01:00,3,71,30.1
+108t,สนามกีฬาเทศบาลเมืองชัยภูมิ,Mueang Chaiyaphum Municipality Stadium," ต.ในเมือง อ.เมืองชัยภูมิ, ชัยภูมิ"," Nai Mueang Subdistrict, Mueang Chaiyaphum District, Chaiyaphum",GROUND,15.81148,102.02281,2024-05-08,01:00,2,27,15.6
+93t,วิทยาลัยสารพัดช่างตรัง,"Polytechnic College, Trang ","ต.นาตาล่วง อ.เมือง, ตรัง","Na Ta Luang Subdistrict, Mueang District, Trang",GROUND,7.570238,99.588743,2024-05-08,01:00,2,27,15.6
+87t,สนามกีฬากลางจังหวัดตราด,Trat Provincial Central Stadium,"ต.บางพระ อ.เมือง, ตราด","Bang Phra, Mueang, Trat",GROUND,12.234862,102.523721,2024-05-08,01:00,2,37,19.5
+76t,ศูนย์การศึกษานอกโรงเรียน,"Non-Formal Education Centre, Mea Sot","ต.แม่ปะ อ.แม่สอด, ตาก","MaePa, MaeSot, Tak",GROUND,16.734413,98.566961,2024-05-08,01:00,3,91,35.2
+105t,ศูนย์บริการสาธารณสุขเทศบาลเมืองนครนายก,Nakhon Nayok Municipality Public Health Service Center,"ต.บ้านใหญ่ อ.เมือง, นครนายก","Ban Yai Subdistrict, Mueang District, Nakhon Nayok",GROUND,14.20422,101.21509,2024-05-08,01:00,2,39,20.4
+81t,อ่างเก็บน้ำประปา,Water reservoir,"ต.นครปฐม อ.เมือง, นครปฐม","Mueang, Nakhon Pathom",GROUND,13.832076,100.057961,2024-05-08,01:00,2,47,23.8
+88t,สถานีอุตุนิยมวิทยานครพนม,"Meteorological stations, Nakhon Phanom","ต.ในเมือง อ.เมือง, นครพนม","Nai Mueang, Meuang, Nakhon Phanom",GROUND,17.412345,104.7786123,2024-05-08,01:00,3,97,36.7
+47t,สถานีสูบน้ำประตูพลแสน,Municipal Waste Water Pumping Station,"ต.ในเมือง อ.เมือง, นครราชสีมา","Nai Mueang, Mueang, Nakhon Ratchasima",GROUND,14.979537,102.098335,2024-05-08,01:00,2,48,24.1
+89t,ศูนย์ฟื้นฟูสุขภาพผู้สูงอายุ,Elderly Health Rehabilitation Center,"ต.คลัง อ.เมือง, นครศรีธรรมราช","Khlang, Mueang, Nakhon Si Thammarat",GROUND,8.426923,99.961469,2024-05-08,01:00,2,26,15.1
+41t,โครงการชลประทานนครสวรรค์,Nakhonsawan Irrigation Project ,"ต.ปากน้ำโพ อ.เมือง, นครสวรรค์","Pak Nam Pho, Mueang, Nakhon Sawan",GROUND,15.68623,100.110556,2024-05-08,01:00,3,84,33.4
+13t,กรมควบควบคุมโรค,Department of Disease Control,"ต.ตลาดขวัญ อ.เมือง, นนทบุรี","Talad Kwan, Muang, Nonthaburi",GROUND,13.852778,100.529444,2024-05-08,01:00,2,32,17.5
+22t,มหาวิทยาลัยสุโขทัยธรรมาธิราช ,Sukhothai Thammathirat Open University,"ต.บางพูด อ.ปากเกร็ด, นนทบุรี","Bang Phut, Pak Kret, Nonthaburi",GROUND,13.907861,100.535641,2024-05-08,01:00,2,46,23.4
+62t,ศาลากลางจังหวัดนราธิวาส ,"City Hall, Narathiwat","ต.บางนาค อ.เมือง, นราธิวาส","Bang Nak, Mueang, Narathiwat",GROUND,6.426853,101.823388,2024-05-08,01:00,2,26,15.3
+67t,สำนักงานเทศบาลเมืองน่าน,"Municipality Office, Nan","ต.ในเวียง อ.เมือง, น่าน","Nai Wiang, Mueang, Nan",GROUND,18.7888833,100.7763166,2024-05-08,01:00,4,162,60.6
+75t,โรงพยาบาลเฉลิมพระเกียรติ ,Chalermprakiet Hospital,"ต.ห้วยโก๋น อ.เฉลิมพระเกียรติ, น่าน","Huai Kon, Chaloem Phra Kiat, Nan",GROUND,19.5759666,101.0815166,2024-05-08,01:00,4,133,49.6
+106t,สวนสาธารณะหนองบึงกาฬ,Nong Bueng Kan Park,"ต.บึงกาฬ อ.เมือง, จ.บึงกาฬ ","Mueang, Bueng Kan",GROUND,18.362008,103.65977,2024-05-08,01:00,2,43,22.1
+101t,ศาลากลางจังหวัดบุรีรัมย์,Buriram City Hall,"ต.เสม็ด อ.เมือง, บุรีรัมย์","Samed Subdistrict, Mueang District, Buriram",GROUND,14.945452,103.105896,2024-05-08,01:00,1,17,10.2
+20t,มหาวิทยาลัยกรุงเทพ วิทยาเขตรังสิต ,Bangkok University Rangsit Campus,"ต.คลองหนึ่ง อ.คลองหลวง, ปทุมธานี","Khlong Nueng, Khlong Luang, Pathum Thani",GROUND,14.03742,100.605216,2024-05-08,01:00,2,42,21.9
+103t, สถานีตรวจอากาศหัวหิน สถานีอุตุนิยมวิทยาประจวบคีรีขันธ์,Hua Hin Weather Station Prachuap Khiri Khan Meteorological Station,"ต.หัวหิน อ.หัวหิน, ประจวบคิรีขันธ์","Hua Hin Subdistrict, Hua Hin District, Prachuap Khiri Khan",GROUND,12.577835,99.953663,2024-05-08,01:00,2,45,22.8
+77t,ศาลาประชาคมบ้านบุยายใบ,Bu Yai Bai Hall Station,"ต.ท่าตูม อ.ศรีมหาโพธิ, ปราจีนบุรี","Tha Tum, SiMahaPhot, Prachin Buri",GROUND,13.917563,101.590529,2024-05-08,01:00,2,44,22.5
+o65,สำนักงานทรัพยากรธรรมชาติและสิ่งแวดล้อมจังหวัดปัตตานี,Provincial Natural Resources and Environmental Office,"ต.รูสะมิแล อ.เมือง, ปัตตานี","Mueang, Pattanee",MOBILE,6.890639752808323,101.25106087293467,2024-05-08,01:00,2,31,17.0
+21t,โรงเรียนอยุธยาวิทยาลัย,Ayutthaya Witthayalai School,"ต.ประตูชัย อ.พระนครศรีอยุธยา, พระนครศรีอยุธยา","Pratu Chai, Phra Nakhon Si Ayutthaya",GROUND,14.35222,100.565325,2024-05-08,01:00,2,42,21.6
+70t,สนามกีฬาจังหวัดพะเยา,"Phayao Provincial, Phayao","ต.บ้านต๋อม อ.เมือง, พะเยา","Bantom, Meuang, Phayao",GROUND,19.200226,99.893048,2024-05-08,01:00,4,176,66.1
+95t,สนามกีฬาจังหวัดพิจิตร," Phichit Provincial , Phichit","ต.ในเมือง อ.เมือง, พิจิตร","Nai Mueang Subdistrict, Mueang District, Phichit",GROUND,16.442554,100.322756,2024-05-08,01:00,3,63,28.2
+86t,สวนชมน่านเฉลิมพระเกียรติ,Chom Nan Chaloem Phrakiat Public Park,"ต.ในเมือง อ.เมือง, พิษณุโลก","Nai Mueang, Mueang, Phitsanulok",GROUND,16.820833,100.258056,2024-05-08,01:00,2,40,20.7
+43t,ศูนย์บริการสาธารณสุขเทศบาลภูเก็ต,Municipal Health Center,"ต.ตลาดใหญ่ อ.เมือง, ภูเก็ต","Talat Yai, Mueang, Phuket",GROUND,7.884488,98.391283,2024-05-08,01:00,2,36,19.1
+102t,สนามกีฬากลางจังหวัดมุกดาหาร,Mukdahan Provincial Stadium,"ต.มุกดาหาร อ.เมือง, มุกดาหาร","Mukdaman Subdistrict, Mueang District, Mukdahan",GROUND,16.54257,104.7192,2024-05-08,01:00,3,78,31.9
+63t,สนามโรงพิธีช้างเผือก ,White Elephant Park,"ต.สะเตง อ.เมือง, ยะลา","Sateng, Mueang, Yala",GROUND,6.546205,101.283137,2024-05-08,01:00,2,26,15.3
+78t,ศูนย์พัฒนาเด็กเล็กเทศบาลเมืองเบตง,"child development centers, Betong","ต.เบตง อ.เบตง, ยะลา","Betong, Yala",GROUND,5.763873,101.067903,2024-05-08,01:00,1,22,13.3
+109t,สวนสาธารณะพญาแถน,Phaya Thaen Public Park,"ต.ในเมือง,อ.เมือง, ยโสธร","Mueang, Yasothon",GROUND,15.783861,104.154639,2024-05-08,01:00,1,21,12.8
+o30,สำนักงานเทศบาลเมืองระนอง,Ranong Municipal office,"ต.เขานิเวศน์  อ.เมือง, ระนอง","Mueang District, Ranong",MOBILE,9.961849,98.639341,2024-05-08,01:00,1,24,14.5
+28t,สำนักงานสาธารณสุขอำเภอปลวกแดง,Pluakdaeng District Health Office,"ต.ปลวกแดง อ.ปลวกแดง, ระยอง","Pluak Daeng, Pluak Daeng, Rayong",GROUND,12.97378333,101.21285,2024-05-08,01:00,1,23,13.5
+29t,โรงพยาบาลส่งเสริมสุขภาพตำบลมาบตาพุด ,Health Promotion Hospital Maptaput,"ต.มาบตาพุด อ.เมือง, ระยอง","Map Ta Phut, Meuang, Rayong",GROUND,12.70865,101.1659833,2024-05-08,00:00,2,29,16.4
+31t,ศูนย์วิจัยพืชไร่ระยอง ,"Field Crop Research Center, Rayong","ต.ห้วยโป่ง อ.เมือง, ระยอง","Huai Pong, Meuang, Rayong",GROUND,12.73518333,101.13565,2024-05-08,01:00,2,31,17.2
+74t,ศูนย์ราชการจังหวัดระยอง ,"Government Complex, Rayong","ต.เนินพระ อ.เมือง, ระยอง","Nern Pra, Meuang, Rayong",GROUND,12.7066,101.18055,2024-05-08,01:00,1,18,11.0
+o21,สำนักงานเกษตรจังหวัดระยอง ,Agricultural Office,"ต.ท่าประดู่ อ.เมือง, ระยอง","Tha Pradu, Meuang, Rayong",GROUND,12.67155,101.2758667,2024-05-08,01:00,1,22,12.9
+o38,ค่ายสุรสิงหนาท,Khai Surasinghanat,"ต.ตะพง อ.เมือง, ระยอง","Taphong, Mueang, Rayong",MOBILE,12.648576,101.32245,2024-05-08,01:00,1,11,6.8
+26t,สำนักงานสิ่งแวดล้อมภาคที่8,Environmental Office 8 ratchaburi,"ต.หน้าเมือง อ.เมือง, ราชบุรี","Na Mueang, Mueang, Ratchaburi",GROUND,13.52344,99.814082,2024-05-07,09:00,4,113,42.2
+o59,สวนสมเด็จพระศรีนครินทร์ ร้อยเอ็ด,"Somdet Phra Srinagarindra Park, Roi Et","ต.ในเมือง อ.เมือง, ร้อยเอ็ด"," Nai Mueang Subdistrict, Mueang District, Roi Et",MOBILE,16.057537,103.651372,2024-05-08,01:00,3,55,26.2
+99t,สถานีอุตุนิยมวิทยาลพบุรี, Meteorological Station Lopburi,"ต.ทะเลชุบศร อ.เมือง, ลพบุรี"," Talay Chupson Subdistrict, Mueang District, Lopburi",GROUND,14.800032,100.628548,2024-05-08,00:00,2,47,23.7
+37t,สถานีอุตุนิยมวิทยาลำปาง,"Meteorological stations, Lampang","ต.พระบาท อ.เมือง, ลำปาง","Phra Bat, Meuang, Lampang",GROUND,18.2783333,99.5064666,2024-05-08,01:00,4,165,61.6
+38t,โรงพยาบาลส่งเสริมสุขภาพตำบลบ้านสบป้าด ,"Health Promotion Hospital Sob Pad, Lampang","ต.สบป้าด อ.แม่เมาะ, ลำปาง","Sop Pat, Mae Mo, Lampang",GROUND,18.2508166,99.76395,2024-05-08,01:00,4,124,46.2
+39t,โรงพยาบาลส่งเสริมสุขภาพตำบลท่าสี ,Health Promotion Hospital Banthasri,"ต.บ้านดง อ.แม่เมาะ, ลำปาง","Ban Dong, Mae Mo, Lampang",GROUND,18.4267833,99.7576333,2024-05-08,01:00,4,124,46.1
+40t,การประปาส่วนภูมิภาคแม่เมาะ,Provincial Waterworks Authority Mae Moh,"ต.แม่เมาะ อ.แม่เมาะ, ลำปาง","Mae Mo, Mae Mo, Lampang",GROUND,18.2826333,99.6598166,2024-05-08,01:00,4,123,46.0
+68t,อุตุนิยมวิทยาลำพูน,"Meteorological Staions, Lamphun","ต.บ้านกลาง อ.เมือง, ลำพูน","ฺBan Klang, Mueang, Lamphun",GROUND,18.567194,99.038639,2024-05-08,01:00,4,148,55.3
+o72,บริเวณที่ว่าการอำเภอลี้, Li District Office,"ต.ลี้ อ.ลี้, ลำพูน","Lee Subdistrict, Lee District, Lamphun",MOBILE,17.802222,98.949722,2024-05-08,00:00,5,203,77.6
+112t,สถานีอุตุนิยมวิทยาศรีสะเกษ,Sisaket Meteorological Center,"ต.หนองครก อ.เมือง, ศรีสะเกษ","Nongkrog Subdistrict, Mueang District, Sisaket",GROUND,15.087087,104.326787,2024-05-08,01:00,2,30,16.9
+90t,สถานีอุตุนิยมวิทยาสกลนคร,"Meteorological stations, Sakon Nakhon","ต.ธาตุนาเวง อ.เมือง, สกลนคร","That Naweng, Mueang, Sakon Nakhon",GROUND,17.15662,104.133216,2024-05-08,01:00,2,28,15.8
+44t,เทศบาลนครหาดใหญ่ ,Hat Yai Municipality,"ต.หาดใหญ่ อ.หาดใหญ่, สงขลา","Hat Yai, Songkhla",GROUND,7.020434,100.484088,2024-05-08,01:00,2,35,18.7
+80t,ศาลากลาง จ.สตูล,"City Hall, Satun","ต.พิมาน อ.เมือง, สตูล","Phiman, Mueang, Satun",GROUND,6.624747,100.066159,2024-05-08,01:00,2,34,18.5
+08t,ศูนย์ฟื้นฟูอาชีพคนพิการและทุพลภาพ ,Prabadang Rehabiltation Center,"ต.ทรงคนอง อ.พระประแดง, สมุทรปราการ","Song Kanong, Phra Pradaeng, Samut Prakan",GROUND,13.664087,100.543436,2024-05-08,01:00,3,59,27.0
+16t,โรงไฟฟ้าพระนครใต้ ,South Bangkok Power Plant,"ต.บางโปรง อ.เมือง, สมุทรปราการ","Bang Prong, Meuang, Samut Prakan",GROUND,13.618,100.5562,2024-05-08,01:00,2,42,21.9
+17t,บ้านพักกรมอุตสาหกรรมพื้นฐานและการเหมืองแร่,Residence for Dept. of Mineral Resources,"ต.ตลาด อ.พระประแดง, สมุทรปราการ","Talat, Phra Pradaeng, Samut Prakan",GROUND,13.652141,100.531805,2024-05-08,01:00,2,42,21.5
+18t,ศาลากลางจังหวัดสมุทรปราการ ,"City Hall, Samut Prakan","ต.ปากน้ำ อ.เมือง, สมุทรปราการ","Pak Nam, Meuang, Samut Prakan",GROUND,13.599149,100.597345,2024-05-08,01:00,3,80,32.5
+19t,การเคหะชุมชนเมืองใหม่บางพลี ,National Housing Authority Bangplee,"ต.บางเสาธง อ.บางเสาธง, สมุทรปราการ","Bang Sao Thong, Bang Sao Thong, Samut Prakan ",GROUND,13.5705,100.7862867,2024-05-08,01:00,2,34,18.3
+84t,สำนักงานสาธารณสุขจังหวัดสมุทรสงคราม,Samut Songkhram Health Office," ต.ลาดใหญ่ อ.เมือง, สมุทรสงคราม","Mueang, Samut Songkhram",GROUND,13.428581,100.024664,2024-05-08,01:00,2,38,20.0
+14t,แขวงการทางสมุทรสาคร ,Highway District,"ต.อ้อมน้อย อ.กระทุ่มแบน, สมุทรสาคร","Om Noi, Krathum Baen, Samut Sakhon",GROUND,13.7054879,100.315622,2024-05-08,01:00,3,67,29.2
+27t,โรงเรียนสมุทรสาครวิทยาลัย,Samut Sakhon Wittayalai School,"ต.มหาชัย อ.เมือง, สมุทรสาคร","Maha Chai, Mueang, Samut Sakhon",GROUND,13.5502631,100.2647676,2024-05-08,01:00,2,45,23.0
+24t,สถานีตำรวจภูธรตำบลหน้าพระลาน ,Na Phralan Police Station ,"ต.หน้าพระลาน อ.เฉลิมพระเกียรติ, สระบุรี","Na Phra Lan, Chaloem Phra Kiat, Saraburi",GROUND,14.685833,100.871996,2024-05-08,01:00,3,58,26.8
+25t,สถานีดับเพลิงพระลักษณ์,Khao Noi Fire Station,"ต.ปากเพรียว อ.เมือง, สระบุรี","Pak Phriao, Mueang Saraburi, Saraburi",GROUND,14.526343,100.926047,2024-05-08,01:00,2,35,18.7
+71t,สวนกาญจนาภิเษก ร.9 (ฝั่งสวนหิน),Kanjanapisek Park,"ต.อรัญประเทศ อ.อรัญประเทศ, สระแก้ว","Aranyaprathet, Aranyaprathet, Sa Kaeo",GROUND,13.691047,102.510442,2024-05-08,01:00,2,26,15.2
+104t,โรงเรียนสิงห์บุรี,SINGBURI SCHOOL,"ต.บางมัญ อ.เมือง, สิงห์บุรี"," Bang Man Subdistrict, Mueang District, Sing Buri",GROUND,14.8933874,100.4130773,2024-05-08,01:00,3,61,27.6
+85t,สนามกีฬากลางจังหวัดสุพรรณบุรี,Suphan Buri Provincial Central Stadium,"ต.ดอนกำยาน อ.เมือง, สุพรรณบุรี","Don Kamyan, Mueang, Suphun Buri",GROUND,14.476214,100.086095,2024-05-08,01:00,2,38,20.2
+42t,สำนักงานสิ่งแวดล้อมภาคที่ 14,"Environment Agency Section 14, Surat Thani","ต.มะขามเตี้ย อ.เมือง, สุราษฎร์ธานี","Makham Tia, Mueang, Surat Thani",GROUND,9.126017,99.325145,2024-05-08,01:00,2,29,16.4
+96t,สวนสาธารณะ ชุมชนเลอไทย,Le Thai Community Park,"ต.ธานี อ.เมือง, สุโขทัย","Tambon Thani, Amphoe Mueang, Sukhothai",GROUND,17.006059,99.81927,2024-05-08,01:00,4,129,48.1
+82t,สวนสาธารณะหนองถิ่น,"Nong Thin Public Park, Nong Khai"," ต.มีชัย อ.เมือง, หนองคาย","Meechai, Meuang, Nong Khai",GROUND,17.87748,102.728925,2024-05-08,01:00,3,67,29.2
+o24,องค์การริหารส่วนจังหวัดหนองบัวลำภู,Nong Bua Lamphu Provincial Administrative Organization ,"ต.หนองบัว อ.เมือง, หนองบัวลำภู","Nong Bua Subdistrict, Mueang District, Nong Bua Lamphu",MOBILE,17.193824,102.4585009,2024-05-08,01:00,2,37,19.8
+110t,สำนักงานเทศบาลเมืองอำนาจเจริญ,Amnat Charoen Municipality,"ต.บุ่ง, อ.เมือง, จ.อำนาจเจริญ","Bung, Mueang, Amnat Charoen",GROUND,15.8758,104.6223,2024-05-08,01:00,2,42,21.7
+91t,สวนสาธารณะหนองประจักษ์ อุดรธานี,"Nong Prajak Public Park, Udon Thani","ต.หมากแข้ง อ.เมือง, อุดรธานี","Mak Khaeng, Mueang, Udon Thani",GROUND,17.414174,102.780926,2024-05-08,01:00,2,34,18.4
+92t,สวนมหามงคลเฉลิมพระชนมพรรษา 6 รอบ 5 ธันวาคม 2552 อุตรดิตถ์,"72nd Anniversary King Bhumibol Public Park, Uttaradit","ต.ท่าอิฐ อ.เมือง, อุตรดิตถ์","Tha It, Mueang, Uttaradit",GROUND,17.631352,100.09896,2024-05-08,01:00,4,109,40.5
+98t,สถานีสวนเฉลิมพระเกียรติพระบาทสมเด็จพระเจ้าอยู่หัว เฉลิมพระชนมพรรษา 80 พรรษา,Chaloem Phrakiat Park Station 80th birthday celebration,"ต.อุทัยใหม่ อ.เมือง, อุทัยธานี","Mueang, Uthai Thani",GROUND,15.373638,100.038725,2024-05-08,01:00,3,94,35.9
+83t,ศูนย์แสดงและจำหน่ายสินค้า OTOP จังหวัดอุบลราชธานี,"OTOP Center, Ubon Ratchathani","ต.ในเมือง อ.เมือง, อุบลราชธานี","Mueang, Ubon Ratchathani",GROUND,15.245413,104.846219,2024-05-08,01:00,3,62,28.0
+o66, สวนน้ำเฉลิมพระเกียรติ ,Chaloem Phra Kiat Water Park,"ต.ย่านซื่อ อ.เมือง, อ่างทอง","Yan Sue Subdistrict, Mueang Ang Thong District Ang Thong Province",MOBILE,14.606306,100.453589,2024-05-08,00:00,2,46,23.2
+57t,สำนักงานทรัพยากรธรรมชาติและสิ่งแวดล้อมจังหวัดเชียงราย,"Natural Resources and Environment Office, Chiangrai","ต.เวียง อ.เมือง, เชียงราย","Wiang, Meuang, Chiang Rai",GROUND,19.909217,99.823467,2024-05-08,01:00,5,206,80.2
+73t,สำนักงานสาธารณสุขแม่สาย,Maesai Health Office,"ต.เวียงพางคำ อ.แม่สาย, เชียงราย","Wiang Phang Kham, Mae Sai, Chiang Rai",GROUND,20.427325,99.883842,2024-05-08,01:00,4,180,67.3
+o69,ศูนย์ป้องกันและบรรเทาสาธารณภัยเทศบาลตำบลเวียง,Wiang Subdistrict Disaster Prevention and Mitigation Center,"ต.เวียง อ.เชียงของ, เชียงราย","Wiang Subdistrict, Chiang Khong District, Chiang Rai",MOBILE,20.2575,100.4025,2024-05-08,01:00,4,176,66.1
+35t,ศูนย์ราชการจังหวัดเชียงใหม่ ,"City Hall, Chiangmai","ต.ช้างเผือก อ.เมือง, เชียงใหม่","Chang Phueak, Meuang, Chiang Mai",GROUND,18.840732,98.96978,2024-05-08,01:00,4,178,66.8
+36t,โรงเรียนยุพราชวิทยาลัย ,Yupparaj Wittayalai School,"ต.ศรีภูมิ อ.เมือง, เชียงใหม่","Si Phum, Meuang, Chiang Mai",GROUND,18.7909333,98.99,2024-05-08,01:00,4,159,59.5
+o27,สำนักงานเทศบาลตำบลเมืองนะ,Mueang Na Subdistrict Municipality Office,"ต.เมืองนะ อ.เชียงดาว, เชียงใหม่","Muangna Subdistrict, Chiang Dao District, Chiang Mai",MOBILE,19.593889,98.961667,2024-05-08,01:00,4,170,63.5
+o28,โรงพยาบาลเทพรัตนเวชชานุกูล แม่แจ่ม,"Debaratana Vejjanukul Hospital, Mae Chaem","ต.ช่างเคิ่ง อ.แม่แจ่ม, เชียงใหม่","Chang Khoeng,Mae Chaem,Chiang Mai",MOBILE,18.498333,98.379444,2024-05-08,01:00,5,218,92.7
+o70,พระตำหนักภูพิงคราชนิเวศน์ ,Wiang Subdistrict Disaster Prevention and Mitigation Center,"ต.สุเทพ  อ.เมือง, จ.เชียงใหม่","Suthep Subdistrict, Mueang District, Chiang Mai Province",MOBILE,18.804894,98.900698,2024-05-08,01:00,4,159,59.4
+o71,การไฟฟ้าส่วนภูมิภาค สาขา อำเภอฮอด,"Provincial Electricity Authority, Hot District Branch","ต.หางดง อ.ฮอด, จ.เชียงใหม่","Hang Dong, Hot District, Chiang Mai",MOBILE,18.172495,98.61069,2024-05-08,01:00,4,163,61.1
+o22,สำนักงานเทศบาลเมืองเพชรบุรี ,Phetchaburi Municipality,"ต.คลองกระแชง อ.เมือง, เพชรบุรี","Tambon Khlong Kra Saeng, Amphoe Mueang Phetchaburi, Chang Wat Phetchaburi",MOBILE,13.11249031,99.9461325,2024-05-08,01:00,2,36,19.3
+97t,สวนเพชบุระ,Phetbura garden,"ต.ในเมือง อ.เมือง, เพชรบูรณ์"," Nai Mueang Subdistrict, Mueang District, Phetchabun",GROUND,16.418417,101.156556,2024-05-08,01:00,3,83,33.1
+72t,สวนสาธารณะเฉลิมพระเกียรติ 60 พรรษามหาราชินี จังหวัดเลย,"60th Anniversary Queen Sirikit Public Park, Loei","ต.กุดป่อง อ.เมือง, เลย","Kut Pong Subdistrict, Mueang District, Loei",GROUND,17.48462,101.732734,2024-05-08,01:00,3,51,25.2
+69t,อุตุนิยมวิทยาจังหวัดแพร่,"Meteorology Center, Phrae","ต.นาจักร อ.เมือง, แพร่","Na Chak, Meuang, Phrae",GROUND,18.1283666,100.1624333,2024-05-08,01:00,4,106,39.6
+58t,สำนักงานทรัพยากรธรรมชาติและสิ่งแวดล้อมจังหวัดแม่ฮ่องสอน,"Natural Resources and Environment Office, Mae Hongson","ต.จองคำ อ.เมือง, แม่ฮ่องสอน","Chong Kham, Meuang, Mae Hong Son",GROUND,19.30455,97.97165,2024-05-08,01:00,4,130,48.7
+o29,สำนักงานสาธารณสุขอำเภอแม่สะเรียง, Mae Sariang District Public Health Office,"ต.แม่คง อ.แม่สะเรียง, แม่ฮ่องสอน","Mae Khong Subdistrict, Sariang District, Mae Hong Son",MOBILE,18.163056,97.917778,2024-05-08,01:00,4,154,57.7
+o73,ท่าอากาศยานปาย,Pai Airport,"ต.เวียงใต้ อ.ปาย, แม่ฮ่องสอน","Wiang Tai, Pai, Mae Hong Son",MOBILE,19.369637,98.43596,2024-05-08,00:00,4,157,58.8

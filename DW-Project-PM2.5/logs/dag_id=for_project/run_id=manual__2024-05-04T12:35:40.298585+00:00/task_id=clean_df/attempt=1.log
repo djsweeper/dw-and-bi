@@ -1,0 +1,57 @@
+[2024-05-04T12:35:57.316+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-04T12:35:57.365+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: for_project.clean_df manual__2024-05-04T12:35:40.298585+00:00 [queued]>
+[2024-05-04T12:35:57.374+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: for_project.clean_df manual__2024-05-04T12:35:40.298585+00:00 [queued]>
+[2024-05-04T12:35:57.374+0000] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2024-05-04T12:35:57.399+0000] {taskinstance.py:2327} INFO - Executing <Task(PythonOperator): clean_df> on 2024-05-04 12:35:40.298585+00:00
+[2024-05-04T12:35:57.430+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'for_project', 'clean_df', 'manual__2024-05-04T12:35:40.298585+00:00', '--job-id', '37', '--raw', '--subdir', 'DAGS_FOLDER/dag_for_project.py', '--cfg-path', '/tmp/tmp3kr78qy9']
+[2024-05-04T12:35:57.439+0000] {standard_task_runner.py:91} INFO - Job 37: Subtask clean_df
+[2024-05-04T12:35:57.450+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=88299) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-05-04T12:35:57.456+0000] {standard_task_runner.py:63} INFO - Started process 88317 to run task
+[2024-05-04T12:35:57.533+0000] {task_command.py:426} INFO - Running <TaskInstance: for_project.clean_df manual__2024-05-04T12:35:40.298585+00:00 [running]> on host 5bc5768c5236
+[2024-05-04T12:35:57.718+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='for_project' AIRFLOW_CTX_TASK_ID='clean_df' AIRFLOW_CTX_EXECUTION_DATE='2024-05-04T12:35:40.298585+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-05-04T12:35:40.298585+00:00'
+[2024-05-04T12:35:57.721+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-04T12:35:57.752+0000] {logging_mixin.py:188} WARNING - /opt/***/dags/dag_for_project.py:77 FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+[2024-05-04T12:36:12.202+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-04T12:36:12.203+0000] {taskinstance.py:2890} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3791, in get_loc
+    return self._engine.get_loc(casted_key)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "index.pyx", line 152, in pandas._libs.index.IndexEngine.get_loc
+  File "index.pyx", line 181, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'area_en'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 400, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 235, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 252, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/dag_for_project.py", line 72, in _clean_df
+    for area in df['area_en']:
+                ~~^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/core/frame.py", line 3893, in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/core/indexes/base.py", line 3798, in get_loc
+    raise KeyError(key) from err
+KeyError: 'area_en'
+[2024-05-04T12:36:12.259+0000] {taskinstance.py:1205} INFO - Marking task as FAILED. dag_id=for_project, task_id=clean_df, execution_date=20240504T123540, start_date=20240504T123557, end_date=20240504T123612
+[2024-05-04T12:36:12.298+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 37 for task clean_df ('area_en'; 88317)
+[2024-05-04T12:36:12.343+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 1
+[2024-05-04T12:36:12.401+0000] {taskinstance.py:3482} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-05-04T12:36:12.411+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

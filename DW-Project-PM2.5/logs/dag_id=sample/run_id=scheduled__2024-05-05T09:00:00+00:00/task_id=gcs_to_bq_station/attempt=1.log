@@ -1,0 +1,23 @@
+[2024-05-05T10:41:50.471+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-05-05T10:41:50.484+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: sample.gcs_to_bq_station scheduled__2024-05-05T09:00:00+00:00 [queued]>
+[2024-05-05T10:41:50.490+0000] {taskinstance.py:2073} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: sample.gcs_to_bq_station scheduled__2024-05-05T09:00:00+00:00 [queued]>
+[2024-05-05T10:41:50.491+0000] {taskinstance.py:2303} INFO - Starting attempt 1 of 1
+[2024-05-05T10:41:50.508+0000] {taskinstance.py:2327} INFO - Executing <Task(GCSToBigQueryOperator): gcs_to_bq_station> on 2024-05-05 09:00:00+00:00
+[2024-05-05T10:41:50.518+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61 DeprecationWarning: This process (pid=98912) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-05-05T10:41:50.518+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'sample', 'gcs_to_bq_station', 'scheduled__2024-05-05T09:00:00+00:00', '--job-id', '228', '--raw', '--subdir', 'DAGS_FOLDER/my_dag.py', '--cfg-path', '/tmp/tmpaamo436h']
+[2024-05-05T10:41:50.519+0000] {standard_task_runner.py:63} INFO - Started process 98929 to run task
+[2024-05-05T10:41:50.519+0000] {standard_task_runner.py:91} INFO - Job 228: Subtask gcs_to_bq_station
+[2024-05-05T10:41:50.569+0000] {task_command.py:426} INFO - Running <TaskInstance: sample.gcs_to_bq_station scheduled__2024-05-05T09:00:00+00:00 [running]> on host 5bc5768c5236
+[2024-05-05T10:41:50.685+0000] {taskinstance.py:2644} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='sample' AIRFLOW_CTX_TASK_ID='gcs_to_bq_station' AIRFLOW_CTX_EXECUTION_DATE='2024-05-05T09:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-05-05T09:00:00+00:00'
+[2024-05-05T10:41:50.687+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-05-05T10:41:50.693+0000] {connection.py:274} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2024-05-05T10:41:50.699+0000] {base.py:84} INFO - Using connection ID 'my_gcp_conn' for task execution.
+[2024-05-05T10:41:50.700+0000] {gcs_to_bigquery.py:379} INFO - Using existing BigQuery table for storing data...
+[2024-05-05T10:41:50.751+0000] {bigquery.py:2328} INFO - Project is not included in destination_project_dataset_table: pm25.station; using project "upbeat-task-421414"
+[2024-05-05T10:41:50.752+0000] {gcs_to_bigquery.py:383} INFO - Executing: {'load': {'autodetect': True, 'createDisposition': 'CREATE_IF_NEEDED', 'destinationTable': {'projectId': 'upbeat-task-421414', 'datasetId': 'pm25', 'tableId': 'station'}, 'sourceFormat': 'CSV', 'sourceUris': ['gs://dw-projec-swu-ds525/pm25_raw/*.csv'], 'writeDisposition': 'WRITE_TRUNCATE', 'ignoreUnknownValues': False, 'schema': {'fields': [{'name': 'station_id', 'type': 'STRING'}, {'name': 'name_th', 'type': 'STRING'}, {'name': 'name_en', 'type': 'STRING'}, {'name': 'area_th', 'type': 'STRING'}, {'name': 'area_en', 'type': 'STRING'}, {'name': 'station_type', 'type': 'STRING'}, {'name': 'lat', 'type': 'FLOAT'}, {'name': 'long', 'type': 'FLOAT'}, {'name': 'date', 'type': 'STRING'}, {'name': 'time', 'type': 'STRING'}, {'name': 'pm25_value', 'type': 'FLOAT'}]}, 'skipLeadingRows': 1, 'fieldDelimiter': ',', 'quote': None, 'allowQuotedNewlines': False, 'encoding': 'UTF-8'}}
+[2024-05-05T10:41:50.753+0000] {bigquery.py:1613} INFO - Inserting job ***_sample_gcs_to_bq_station_2024_05_05T09_00_00_00_00_42eeeb4aa91bf7e3d416422351a290db
+[2024-05-05T10:41:52.603+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-05-05T10:41:52.611+0000] {taskinstance.py:1205} INFO - Marking task as SUCCESS. dag_id=sample, task_id=gcs_to_bq_station, execution_date=20240505T090000, start_date=20240505T104150, end_date=20240505T104152
+[2024-05-05T10:41:52.657+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2024-05-05T10:41:52.677+0000] {taskinstance.py:3482} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-05-05T10:41:52.684+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
